@@ -9,7 +9,7 @@ public class HiLow
 {
   public static void main(String[] args)
   {
-    int correctNumber = new Random(100).nextInt(100);
+    int correctNumber = new Random().nextInt(100);
     int numberofGuesses = 8;
     for (int i = 1; i <= numberofGuesses; i++)
     {
